@@ -1,0 +1,36 @@
+node_modules/
+dist/
+.next/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+!.env.example
+*.tsbuildinfo
+backend/prisma/generated/
+
+# Documents and workshop materials
+*.pdf
+RULES.md
+ROADMAP.md
+PROMPT_CODEX.md
+
+# AI agent and editor configuration
+.cursorrules
+.cursor/
+.claude/
+.github/copilot/
+.windsurf/
+.aider*
+.rules/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
